@@ -1,0 +1,167 @@
+body {
+    font-family: 微軟正黑體;
+    /* background-color: #000; */
+}
+
+:root {
+    --nav--bg: #5ddfffc3;
+    --text--color: #000;
+}
+
+/* header {
+    height: 100vh;
+} */
+
+nav {
+    background-color: transparent;
+    z-index: 999;
+}
+
+.nav-ul>li>a,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-hover {
+    background-color: var(--nav--bg);
+    color: var(--text--color);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-text2:hover,
+.nav-text {
+    color: #fa5f06 !important;
+}
+
+.nav-text2 {
+    color: var(--text--color);
+}
+.a-border {
+    width: 30%;
+    height: 10px;
+    background-color: #ff9c3f;
+}
+
+:root {
+    --c--bg: #fdd5ffc3;
+    --d--box: #fff;
+}
+
+.brief{
+    background-color: var(--c--bg);
+}
+
+.box4{
+    background-color: var(--c--bg);
+}
+.diamonds{
+    border-radius: 5px;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+:root {
+    --icon--bg: #f28943;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--icon--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+    &>i {
+        font-size: 40px;
+    }
+
+    &:hover {
+        transform: translate(0px, -5px);
+    }
+}
+
+.icon-2 {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: var(--icon--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+
+    &>i {
+        font-size: 20px;
+    }
+
+    &:hover {
+        transform: translate(0px, -5px);
+    }
+}
+.f {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c--bg);
+}
+
+.g-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--icon--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+    margin-right: 10px;
+    cursor: pointer;
+    &>i {
+        font-size: 10px;
+    }
+
+    &:hover {
+       
+        background-color: #f23131;
+    }
+}
+.g-button {
+    max-width: 150px;
+    max-height: 40px;
+    background-color: #d49e52;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.j {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.j-img {
+    &>img {
+        transition: all 0.5s linear;
+    }
+
+    &>img:hover {
+        transform: translate(0, -10px);
+    }
+}
+.eimg{
+    width: 20%;
+    object-fit: cover;
+}
+.eimg2{
+    width: 20%;
+    object-fit:contain;
+}
